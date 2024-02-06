@@ -1,8 +1,5 @@
 import {Link,NavLink} from 'react-router-dom';
-import useGetUser from '../customhook/useGetUser';
 export default function Header() {
-
-    const data=useGetUser();
 
     return (
         <header className="shadow sticky z-50 top-0 ">
